@@ -1,0 +1,172 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Home" description="Indivisible Tahoe Truckee — grassroots civic action for democracy and our public lands in the Tahoe-Truckee area.">
+
+  <!-- Nav -->
+  <nav class="bg-navy-deep border-b border-white/10 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
+      <div class="flex flex-col leading-none">
+        <span class="text-xs font-bold uppercase tracking-widest text-sky-bright">Tahoe Truckee</span>
+        <span class="text-white font-black text-base tracking-wide uppercase">Indivisible</span>
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="https://forestservice.indivisibletahoetruckee.org" class="hidden md:block text-sm font-semibold text-slate-300 hover:text-white transition-colors">Forest Service Campaign</a>
+        <a href="#join" class="bg-sky text-white text-sm font-bold px-5 py-2 rounded-lg hover:opacity-90 transition-opacity">Join Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-navy min-h-[85vh] flex items-center">
+    <div class="max-w-5xl mx-auto px-6 py-24">
+      <p class="section-label">Grassroots Civic Action</p>
+      <h1 class="text-5xl md:text-7xl font-black leading-none tracking-tight text-white mb-6">
+        Indivisible<br />Tahoe Truckee
+      </h1>
+      <div class="blue-rule"></div>
+      <p class="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed mb-4">
+        We are neighbors — hikers, parents, workers, and voters — who believe democracy requires active participation.
+      </p>
+      <p class="text-lg text-slate-400 max-w-2xl mb-10">
+        We organize, advocate, and show up. From calling our representatives to hosting community events, we turn values into action in the Tahoe-Truckee region.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#join" class="btn-primary text-lg px-10 py-5">Join Our Chapter &darr;</a>
+        <a href="#campaigns" class="btn-outline text-lg px-10 py-5">See Our Campaigns</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is Indivisible -->
+  <section class="bg-navy-brand py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="section-label">About Us</p>
+          <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Part of a National Movement</h2>
+          <div class="blue-rule"></div>
+          <p class="text-slate-300 leading-relaxed mt-6 mb-4">Indivisible is a national grassroots movement of thousands of local chapters fighting to defend democracy and progressive values. We follow the Indivisible Guide — a proven playbook for making Congress listen to constituents.</p>
+          <p class="text-slate-300 leading-relaxed">Indivisible Tahoe Truckee is the local chapter for the Truckee, Lake Tahoe, and surrounding mountain communities. We focus on issues that matter to our region: public lands, climate, voting rights, and holding our representatives accountable.</p>
+        </div>
+        <div class="space-y-4">
+          <div class="card flex gap-4 items-start">
+            <span class="text-sky-bright text-2xl font-black shrink-0">📞</span>
+            <div>
+              <p class="text-white font-bold mb-1">We call Congress</p>
+              <p class="text-slate-400 text-sm">Constituent calls are the single most effective way to influence your representatives. We make it easy.</p>
+            </div>
+          </div>
+          <div class="card flex gap-4 items-start">
+            <span class="text-sky-bright text-2xl font-black shrink-0">🏔️</span>
+            <div>
+              <p class="text-white font-bold mb-1">We show up locally</p>
+              <p class="text-slate-400 text-sm">Events, banner actions, letters to the editor — we make our voice visible in our community.</p>
+            </div>
+          </div>
+          <div class="card flex gap-4 items-start">
+            <span class="text-sky-bright text-2xl font-black shrink-0">🤝</span>
+            <div>
+              <p class="text-white font-bold mb-1">We build coalition</p>
+              <p class="text-slate-400 text-sm">We work with chapters across the Mountain West to coordinate and amplify our impact.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Current Campaign -->
+  <section id="campaigns" class="bg-navy py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <p class="section-label">Current Campaign</p>
+      <h2 class="text-3xl md:text-4xl font-black text-white mb-3">Protect the U.S. Forest Service</h2>
+      <div class="blue-rule"></div>
+      <p class="text-slate-300 max-w-2xl mt-6 mb-10">The Trump administration is gutting the Forest Service — firing thousands of workers, slashing the budget by 65%, closing research stations, and directing dangerous herbicide spraying on our national forests. The FY27 budget markup is coming. We're fighting back.</p>
+      <div class="grid md:grid-cols-3 gap-6 mb-10">
+        <div class="card border-l-4 border-alert">
+          <p class="text-alert font-bold text-lg mb-2">9,000+</p>
+          <p class="text-white font-bold mb-1">Jobs Lost</p>
+          <p class="text-slate-400 text-sm">About 25% of the Forest Service workforce fired or bought out since January 2025</p>
+        </div>
+        <div class="card border-l-4 border-alert">
+          <p class="text-alert font-bold text-lg mb-2">65%</p>
+          <p class="text-white font-bold mb-1">Budget Cut Proposed</p>
+          <p class="text-slate-400 text-sm">The FY27 White House budget would gut the agency that manages 193 million acres of public land</p>
+        </div>
+        <div class="card border-l-4 border-alert">
+          <p class="text-alert font-bold text-lg mb-2">May 21</p>
+          <p class="text-white font-bold mb-1">Markup Deadline</p>
+          <p class="text-slate-400 text-sm">The House Interior Appropriations Subcommittee meets May 21 — Congress must hear from you now</p>
+        </div>
+      </div>
+      <a href="https://forestservice.indivisibletahoetruckee.org" class="btn-primary text-lg px-10 py-5 inline-block">See the Full Campaign &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Join / Email Signup -->
+  <section id="join" class="bg-navy-mid py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-start">
+        <div>
+          <p class="section-label">Get Involved</p>
+          <h2 class="text-3xl md:text-4xl font-black text-white mb-4">Join Our Chapter</h2>
+          <div class="blue-rule"></div>
+          <p class="text-slate-300 leading-relaxed mt-6 mb-6">Fill out our interest form to get on our list. We'll keep you updated on events, actions, and ways to plug in — whether you have 5 minutes or 5 hours a month.</p>
+          <div class="space-y-4 text-slate-300 text-sm">
+            <div class="flex gap-3 items-center">
+              <span class="text-sky-bright">✓</span>
+              <p>Monthly community events (Democracy on Draft and more)</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span class="text-sky-bright">✓</span>
+              <p>Action alerts when your call matters most</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span class="text-sky-bright">✓</span>
+              <p>Coalition updates from across the Mountain West</p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span class="text-sky-bright">✓</span>
+              <p>No spam. Unsubscribe anytime.</p>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col sm:flex-row gap-4">
+            <a href="https://www.facebook.com/groups/1169555336469226/" target="_blank" rel="noopener" class="btn-outline text-sm inline-block text-center">Join our Facebook Group &rarr;</a>
+            <a href="mailto:IndivisibleTahoeTruckee@gmail.com" class="text-sky text-sm font-bold hover:underline self-center">IndivisibleTahoeTruckee@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Google Form Embed -->
+        <div class="bg-navy rounded-2xl overflow-hidden border border-white/10">
+          <iframe
+            src="https://docs.google.com/forms/d/1T41JRh2M2YPY65sEqmEkD86zAN7NoOCBYHVR-ev65oM/viewform?embedded=true"
+            width="100%"
+            height="600"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="Indivisible Tahoe Truckee Interest Form"
+          >Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-deep border-t border-white/10 py-10">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="text-white font-black uppercase tracking-wide">Indivisible Tahoe Truckee</p>
+        <p class="text-slate-500 text-xs mt-1">Part of the national Indivisible movement.</p>
+      </div>
+      <div class="flex gap-6 text-sm text-slate-400">
+        <a href="https://forestservice.indivisibletahoetruckee.org" class="hover:text-white transition-colors">Forest Service Campaign</a>
+        <a href="https://www.facebook.com/groups/1169555336469226/" target="_blank" rel="noopener" class="hover:text-white transition-colors">Facebook</a>
+        <a href="mailto:IndivisibleTahoeTruckee@gmail.com" class="hover:text-white transition-colors">Contact</a>
+        <a href="https://indivisible.org" target="_blank" rel="noopener" class="hover:text-white transition-colors">Indivisible National</a>
+      </div>
+    </div>
+  </footer>
+
+</Layout>
