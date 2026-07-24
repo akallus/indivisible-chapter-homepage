@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="Events" description="Upcoming Indivisible Tahoe Truckee events — community actions, marches, and ways to show up.">
+<Layout title="Events" description="Upcoming Indivisible Tahoe Truckee events — community actions, meetings, and social gatherings.">
 
   <!-- Nav -->
   <nav class="bg-navy-deep border-b border-white/10 sticky top-0 z-50">
@@ -30,45 +30,73 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- Events List -->
   <section class="bg-navy-mid py-16">
-    <div class="max-w-5xl mx-auto px-6 space-y-8">
+    <div class="max-w-5xl mx-auto px-6 space-y-6">
 
-      <!-- Justice for Lorenzo and Johan -->
+      <!-- July 23 — General Meeting (TONIGHT) -->
+      <div class="card border border-sky/40">
+        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-3 flex-wrap">
+              <span class="bg-alert text-white text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full">Tonight</span>
+              <span class="text-slate-400 text-sm font-semibold">Wednesday, July 23, 2026</span>
+            </div>
+            <h2 class="text-white font-black text-xl mb-1">Indivisible Tahoe Truckee General Meeting</h2>
+            <p class="text-sky-bright font-bold mb-3">7:00pm &nbsp;·&nbsp; Online</p>
+            <p class="text-slate-300 text-sm leading-relaxed">Our regular chapter meeting. Open to all — new members welcome. We'll cover current campaigns, upcoming events, and ways to plug in.</p>
+            <p class="text-slate-500 text-xs mt-3">Repeats every other Thursday &mdash; next: August 6, August 20</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- July 25 — Justice for Lorenzo and Johan -->
       <div class="card flex flex-col md:flex-row gap-8 items-start">
         <img
           src="/images/justice-for-lorenzo-and-johan-truckee.png"
-          alt="Justice for Lorenzo and Johan — Justice for All, ICE Out. Community march flyer with photos of Lorenzo and Johan surrounded by flowers."
-          class="w-full md:w-72 rounded-xl object-cover shrink-0"
+          alt="Justice for Lorenzo and Johan — Justice for All, ICE Out. Community march flyer."
+          class="w-full md:w-56 rounded-xl object-cover shrink-0"
         />
         <div class="flex-1">
           <div class="flex items-center gap-3 mb-3 flex-wrap">
             <span class="bg-sky text-white text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full">Upcoming</span>
             <span class="text-slate-400 text-sm font-semibold">Saturday, July 25, 2026</span>
           </div>
-          <h2 class="text-white font-black text-2xl md:text-3xl mb-1">Justice for Lorenzo and Johan</h2>
-          <p class="text-sky-bright font-bold mb-5">12:00pm – 1:00pm PDT &nbsp;·&nbsp; Truckee, CA</p>
-
-          <p class="text-slate-300 text-sm leading-relaxed mb-5">
-            A community march in solidarity with Lorenzo and Johan and all those affected by ICE enforcement in our region. We gather at Church of the Mountains at noon, then walk together to the Eagle Statue, arriving by 12:30pm. Come as you are. Bring a neighbor.
-          </p>
-
-          <div class="bg-navy rounded-lg px-5 py-4 text-sm space-y-2 mb-6">
+          <h2 class="text-white font-black text-2xl mb-1">Justice for Lorenzo and Johan</h2>
+          <p class="text-sky-bright font-bold mb-4">12:00pm – 1:00pm PDT &nbsp;·&nbsp; Truckee, CA</p>
+          <p class="text-slate-300 text-sm leading-relaxed mb-4">A community march in solidarity with Lorenzo and Johan and all those affected by ICE enforcement in our region. Come as you are. Bring a neighbor.</p>
+          <div class="bg-navy rounded-lg px-4 py-3 text-sm space-y-2 mb-5">
             <div class="flex gap-3">
-              <span class="text-sky-bright shrink-0 font-bold">12:00pm</span>
-              <p class="text-slate-300">Gather at <span class="text-white font-semibold">Church of the Mountains</span>, 10079 Church St, Truckee, CA 96161</p>
+              <span class="text-sky-bright font-bold shrink-0">12:00pm</span>
+              <p class="text-slate-300">Gather at <span class="text-white font-semibold">Church of the Mountains</span>, 10079 Church St, Truckee</p>
             </div>
             <div class="flex gap-3">
-              <span class="text-sky-bright shrink-0 font-bold">12:30pm</span>
+              <span class="text-sky-bright font-bold shrink-0">12:30pm</span>
               <p class="text-slate-300">Processional arrives at <span class="text-white font-semibold">Eagle Statue</span></p>
             </div>
           </div>
-
-          <a
-            href="https://maps.google.com/?q=10079+Church+St,+Truckee,+CA+96161"
-            target="_blank"
-            rel="noopener"
-            class="btn-primary text-sm inline-block"
-          >Get Directions &rarr;</a>
+          <a href="https://maps.google.com/?q=10079+Church+St,+Truckee,+CA+96161" target="_blank" rel="noopener" class="btn-primary text-sm inline-block">Get Directions &rarr;</a>
         </div>
+      </div>
+
+      <!-- August 5 — Democracy on Tap -->
+      <div class="card">
+        <div class="flex items-center gap-3 mb-3 flex-wrap">
+          <span class="bg-sky text-white text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full">Upcoming</span>
+          <span class="text-slate-400 text-sm font-semibold">Wednesday, August 5, 2026</span>
+        </div>
+        <h2 class="text-white font-black text-xl mb-1">Democracy on Tap</h2>
+        <p class="text-sky-bright font-bold mb-3">7:00pm &nbsp;·&nbsp; Alibi Truckee</p>
+        <p class="text-slate-300 text-sm leading-relaxed">A casual social evening — postcarding, introductions, and good conversation. New to Indivisible? This is a great first event. No experience needed, just show up.</p>
+      </div>
+
+      <!-- August 6 — General Meeting -->
+      <div class="card border border-white/10">
+        <div class="flex items-center gap-3 mb-3 flex-wrap">
+          <span class="bg-navy text-slate-400 text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full border border-white/10">Recurring</span>
+          <span class="text-slate-400 text-sm font-semibold">Thursday, August 6, 2026</span>
+        </div>
+        <h2 class="text-white font-black text-xl mb-1">Indivisible Tahoe Truckee General Meeting</h2>
+        <p class="text-sky-bright font-bold mb-3">7:00pm &nbsp;·&nbsp; Online</p>
+        <p class="text-slate-300 text-sm leading-relaxed">Our regular chapter meeting, open to all. Continues every other Thursday — next after this: August 20.</p>
       </div>
 
     </div>
